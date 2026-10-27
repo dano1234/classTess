@@ -1,0 +1,12 @@
+/* Remove default spacing and scrollbars so the canvas fills the window */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #0f0f1a;
+}
+
+canvas {
+  display: block;
+}
